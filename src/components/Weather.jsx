@@ -30,7 +30,7 @@ const Weather = () => {
                    Current Temp : {city.temp} °C
                 </h1>
                 <h3 className="tempmin_max flex justify-center">
-                    Min: {city.temp_min} °C | Max: {city.temp_max} °C </h3>
+                   Feels Like : {city.feels_like} °C | Humidity : {city.humidity} %  </h3>
                     </div>
             </>)}
            
